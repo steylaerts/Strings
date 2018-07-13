@@ -11,12 +11,7 @@ public class Main {
         String sInput = scanner.nextLine();
         int iLengte = sInput.trim().length();
 
-/*
-        if (iLengte >= 8) {
-            sInput=sInput.toUpperCase();
-            System.out.println("Je tekst is \"" + sInput+"\"");
-        } else {
-*/
+
             while (iLengte < 8) {
                 System.out.println("Kieken, ik zei minstens 8. Opnieuw: ");
                 sInput = scanner.nextLine();
